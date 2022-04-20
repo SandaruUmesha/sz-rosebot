@@ -90,12 +90,12 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="❓ Commands Menu", callback_data="bot_commands"
+                text="❓ Commands Help", callback_data="bot_commands"
             ),
         ],
         [
            InlineKeyboardButton(
-                text="👨‍💻 About", callback_data="_about"
+                text="👨‍💻 About & infor", callback_data="_about"
             ),
             InlineKeyboardButton(
                 text="🌎 Network", url="https://t.me/Theszrosebot"
