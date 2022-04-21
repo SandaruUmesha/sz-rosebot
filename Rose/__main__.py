@@ -80,21 +80,21 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="📚 Commands & help", callback_data="bot_commands"
+                text="❓Commands Help", callback_data="bot_commands"
             ),
         ],
         [
            InlineKeyboardButton(
-                text="👨‍🦯 About", callback_data="_about"
+                text="🙋‍♂️About", callback_data="_about"
             ),
             InlineKeyboardButton(
-                text="🌎 languages ", callback_data="_langs"
+                text="🧑‍💻 Donate", url="https://t.me/Sithumj"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="📓 Documentation",
-                url=f"https://szsupunma.gitbook.io/rose-bot/",
+                text="📓 🙋‍♀️ Network",
+                url=f"https://t.me/darklabu",
             )
         ],
         [
